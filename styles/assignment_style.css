@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* .vision{
+    margin: 0 auto;
+} */
+
+main{
+    max-width:1280px ;
+    margin: 0 auto;
+}
+/* Banner STYLES */
+
 .banner{
     background-color:#C6E4D6 ;
     margin: 0 auto;
    max-width: 1280px;
-   /* max-height:550px ; */
    display: flex;
    justify-content: space-between;
    border-radius: 24px;
@@ -43,11 +52,75 @@
     width: 450px;
     height: 400px;
     margin-right:55px ;
-    /* justify-content: center; */
-    /* align-items: center; */
     padding-top: 80px;
 }
-.banner_img img{
-    /* margin: 0 auto; */
-    /* margin-top: 50%; */
+
+/* VISION_FUTURE STYLES */
+
+.vision_title{
+font-size: 45px;
+font-weight: bolder;
+}
+.vision_descri{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.future_content{
+    display: flex;
+    gap:24px ;
+}
+
+.future_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.future_discri{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.width_padding_radius{
+    width: 400px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.future_need1{
+    background-color:#d4e0f6 ;
+    /* width: 400px;
+    border-radius: 16px;
+    padding: 24px; */
+}
+.future_need2{
+    background-color:#C6E4D6 ;
+    /* width: 400px;
+    border-radius: 16px; */
+}
+.future_need3{
+    background-color:#F7EBCF ;
+    /* width: 400px;
+    border-radius: 16px; */
+}
+
+.btn_secondary1 {
+    background-color:#5490F5 ;
+}
+.btn_secondary2{
+    background-color: #09A15C;
+}
+.btn_secondary3{
+    background-color: #FFC239;
+}
+
+.btn_primary{
+ padding:12px 16px;
+ width: 125px;
+ /* height: 40px; */
+ font-size: 16px;
+ font-weight: 600;
+ color: white;
+ border-radius: 8px;
+ border-style: none;
 }
